@@ -1,0 +1,50 @@
+<?xml version=”1.0” encoding=”UTF-8”?>
+<rdf:RDF
+xmlns:rdfs=”http://www.w3.org/2000/01/rdf-schema#”
+xmlns:dbpedia-owl=”http://dbpedia.org/ontology/”
+xmlns:foaf=”http://xmlns.com/foaf/0.1/”
+xmlns:owl=”http://www.w3.org/2002/07/owl#”
+xmlns:xsd=”http://www.w3.org/2001/XMLSchema#”
+xmlns:rdf=”http://www.w3.org/1999/02/22-rdf-syntax-ns#”
+xmlns:rankingonto=”http://example.org/rankingonto”>
+<rdf:Description rdf:about=”http://example.org/data/universidad-catolica-de-santa-fe”>
+<rdf:type rdf:resource=”http://xmlns.com/foaf/0.1/Organization”/>
+<foaf:name>Universidad Catolica de Santa Fe</foaf:name>
+<foaf:weblog>http://www.ucsf.edu.ar/</foaf:weblog>
+<dbpedia-owl:country rdf:resource=”http://example.org/data/Argentina”/>
+<rankingontohasDataRank rdf:resource=”http://example.org/data/scimago1”/>
+</rdf:Description>
+<rdf:Description rdf:about=”http://example.org/data/Argentina”>
+<rdf:type rdf:resource=”http://dbpedia.org/ontology/Country”/>
+<foaf:name>Argentina</foaf:name>
+<foaf:weblog>http://es.wikipedia.org/wiki/Argentina</foaf:weblog>
+</rdf:Description>
+<rdf:Description rdf:about=”http://example.org/data/scimago1”>
+<rdf:type rdf:resource=”http://example.org/rankingontoRank”/>
+<rankingontoposition>381</rankingontoposition>
+<rankingontoprovenance>Scimago</rankingontoprovenance>
+</rdf:Description>
+<rdf:Description rdf:about=”http://example.org/data/universidad-catolica-de-cuyo”>
+<foaf:name>Universidad Catolica de Cuyo</foaf:name>
+<foaf:weblog>http://www.uccuyo.edu.ar/</foaf:weblog>
+<dbpedia-owl:country rdf:resource=”http://example.org/data/Argentina”/>
+<rankingontohasDataRank rdf:resource=”http://example.org/data/scimago2”/>
+</rdf:Description>
+<rdf:Description rdf:about=”http://example.org/data/scimago2”>
+<rdf:type rdf:resource=”http://example.org/rankingontoRank”/>
+<rankingontoposition>371</rankingontoposition>
+<rankingontoprovenance>Scimago</rankingontoprovenance>
+</rdf:Description>
+<rdf:Description rdf:about=”http://example.org/data/universidad-de-la-salle”>
+<rdf:type rdf:resource=”http://xmlns.com/foaf/0.1/Organization”/>
+<foaf:name>Universidad de La Salle</foaf:name>
+<foaf:weblog>http://www.ulasalle.ac.cr/</foaf:weblog>
+<dbpedia-owl:country rdf:resource=”http://example.org/data/Colombia”/>
+<rankingontohasDataRank rdf:resource=”http://example.org/data/scimago146”/>
+</rdf:Description>
+<rdf:Description rdf:about=”http://example.org/data/scimago146”>
+<rdf:type rdf:resource=”http://example.org/rankingontoRank”/>
+<rankingontoposition xmlns=”http://example.org/”>298</rankingontoposition>
+<rankingontoprovenance xmlns=”http://example.org/”>Scimago</rankingontoprovenance>
+</rdf:Description>
+</rdf:RDF>
